@@ -7,6 +7,10 @@ The main two files you will want to look at are:
 - `/src/index.ts`, which contains the entry point for the plugin source code.
 - `/src/manifest.json`, which is the plugin manifest. It contains information such as the plugin a name, version, etc.
 
+#example
+![image](https://user-images.githubusercontent.com/3354431/225245626-4f266745-9383-41dd-9eeb-54930bc1ad06.png)
+
+
 ## Building the plugin
 
 The plugin is built using Webpack, which creates the compiled code in `/dist`. A JPL archive will also be created at the root, which can use to distribute the plugin.
