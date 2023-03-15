@@ -1,0 +1,19 @@
+{
+	"manifest_version": 1,
+	"id": "com.fbjia.tabtotab",
+	"app_min_version": "2.8",
+	"version": "1.0.0",
+	"name": "tabtotab",
+	"description": "Tap键 显示为 4个空格",
+	"author": "shoko",
+	"homepage_url": "https://github.com/sanbao/",
+	"repository_url": "https://github.com/sanbao/tabtotab",
+	"keywords": [],
+	"categories": [
+		"markdown",
+		"markdown-it",
+		"tabtotap"
+	],
+	"_publish_hash": "sha256:785680fbb8099b5040a120c8118a5adb293ddb7c20ddd989a6576eaf2392b874",
+	"_publish_commit": "master:6de6a263cbbaaf995fe230729ae47af65a9891dc"
+}
