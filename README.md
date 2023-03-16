@@ -1,5 +1,7 @@
 # Joplin Plugin
 
+优先更新地址：https://gitee.com/shoko/joplin-plugin-taptotap
+
 This is a template to create a new Joplin plugin.
 
 The main two files you will want to look at are:
