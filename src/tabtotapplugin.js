@@ -3,7 +3,7 @@
 
 module.exports = function admonitionPlugin(md, options) {
 
-    md.core.ruler.before("block","tabtotab",function (state){
+    md.core.ruler.after("block","tabtotab",function (state){
         console.log("state tabtotab------")
         console.log(state)
         var result = state.src;
