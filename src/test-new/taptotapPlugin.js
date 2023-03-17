@@ -3,7 +3,7 @@
 
 module.exports = function taptotap(md, options) {
 
-    md.renderer.rules.taptotap = function (tokens, idx /*, options, env */) {
+    md.renderer.rules.paragraph_open = function (tokens, idx /*, options, env */) {
         var result = tokens[idx].content;
         console.log(result);
         var patt = /^\u0009/;
