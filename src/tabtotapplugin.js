@@ -1,10 +1,10 @@
 "use strict";
 
 
-module.exports = function admonitionPlugin(md, options) {
+module.exports = function tabtotapPlugin(md, options) {
 
-    md.core.ruler.after("block","tabtotab",function (state){
-        console.log("state tabtotab------")
+    md.core.ruler.before("block","tabtotab",function (state){
+        console.log("state before tabtotab------")
         console.log(state)
         var result = state.src;
         let rg = /\u0009/g;
@@ -32,5 +32,6 @@ module.exports = function admonitionPlugin(md, options) {
         }
         state.src = result
 
-    })
+    });
+
 };
